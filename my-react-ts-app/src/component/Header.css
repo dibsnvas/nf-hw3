@@ -1,0 +1,41 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px; /* Adjust padding for smaller screens */
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust gap for smaller screens */
+}
+
+.header a, .header button {
+  color: #fff;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px; /* Adjust padding for smaller screens */
+  font-size: 16px; /* Adjust font size */
+  font-family: Arial, sans-serif; /* Adjust font family */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start on smaller screens */
+  }
+
+  .header ul {
+    margin-top: 10px; /* Add margin to separate items on smaller screens */
+  }
+
+  .header button {
+    margin-left: auto; /* Move button to the right on smaller screens */
+  }
+}

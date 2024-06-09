@@ -1,0 +1,110 @@
+/* Common styles */
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply overflow: hidden only on login page */
+.login-page body, .login-page html {
+  overflow: hidden;
+}
+
+/* Styles for login page */
+.login-page {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  overflow: hidden;
+}
+
+.login-form {
+  background-color: var(--form-background-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Adjust width for smaller screens */
+  max-width: 400px; /* Maximum width for larger screens */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark theme styles */
+:root {
+  --background-color: #f0f0f0;
+  --form-background-color: #fff;
+}
+
+.dark-theme {
+  --background-color: #000;
+  --form-background-color: #555;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding for smaller screens */
+}
+
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust gap for smaller screens */
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px; /* Adjust padding for smaller screens */
+}

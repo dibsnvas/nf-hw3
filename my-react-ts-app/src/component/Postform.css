@@ -1,0 +1,56 @@
+.post-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .post-form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .post-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .post-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-form button:hover {
+    background-color: #0056b3;
+  }
+  .dark-theme .post-form {
+    border-color: #666666; /* Border color for dark theme */
+    background-color: #333333; /* Background color for dark theme */
+  }
+  
+  .dark-theme .post-form label {
+    color: #ffffff; /* Text color for labels in dark theme */
+  }
+  
+  .dark-theme .post-form input {
+    border-color: #666666; /* Border color for input in dark theme */
+    background-color: #444444; /* Background color for input in dark theme */
+    color: #ffffff; /* Text color for input in dark theme */
+  }
+  
+  .dark-theme .post-form button {
+    background-color: #444444; /* Button background color for dark theme */
+  }
+  
+  .dark-theme .post-form button:hover {
+    background-color: #666666; /* Button hover background color for dark theme */
+  }
